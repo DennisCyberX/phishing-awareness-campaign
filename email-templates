@@ -1,0 +1,8 @@
+<html>
+<body>
+  <p>Dear User,</p>
+  <p>We have detected unusual activity on your account. Please verify your credentials to secure your account.</p>
+  <p><a href="http://fake-login-page.com">Click here to verify</a></p>
+  <p>Thank you,<br>IT Support Team</p>
+</body>
+</html>
