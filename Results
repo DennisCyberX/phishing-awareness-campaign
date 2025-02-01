@@ -1,1 +1,13 @@
+import pandas as pd
 
+# Load simulation results
+results = pd.read_csv("results/simulation_results.csv")
+
+# Calculate metrics
+total_emails_sent = len(results)
+clicks = results[results['clicked_link'] == True]
+credentials_entered = results[results['entered_credentials'] == True]
+
+print(f"Total Emails Sent: {total_emails_sent}")
+print(f"Users Who Clicked the Link: {len(clicks)}")
+print(f"Users Who Entered Credentials: {len(credentials_entered)}")
